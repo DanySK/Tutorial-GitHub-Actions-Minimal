@@ -23,7 +23,7 @@ jobs:
         os: [windows, macos, ubuntu]
         jvm_version: [8, 11, 15, 16] # Arbitrarily-made and arbitrarily-valued variables
         ruby_version: [2.7, 3.0]
-        python_version: [3.7, 3.9.16]
+        python_version: [3.7, 3.9.12]
     runs-on: ${{ matrix.os }}-latest ## The string is computed interpolating a variable value
     steps:
       - uses: actions/setup-java@v3
