@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: danysk/action-checkout@0.2.5
+        uses: danysk/action-checkout@0.2.6
       - id: branch-name # Custom id
         uses: tj-actions/branch-names@v6
       - id: output-from-shell
